@@ -1,0 +1,14 @@
+{
+  "name": "fib-code",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Functions to encode and decode letters using Fibonacci",
+  "license": "MIT",
+  "author": {
+    "name": "Danielle Pham",
+    "url": "https://daniellepham.ca/"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.25"
+  }
+}
