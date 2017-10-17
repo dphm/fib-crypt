@@ -1,8 +1,8 @@
 {
-  "name": "fib-code",
-  "version": "0.1.0",
+  "name": "fib-crypt",
+  "version": "0.2.0",
   "private": true,
-  "description": "Functions to encode and decode letters using Fibonacci",
+  "description": "Functions to encrypt and decrypt letters using Fibonacci",
   "license": "MIT",
   "author": {
     "name": "Danielle Pham",

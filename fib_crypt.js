@@ -39,21 +39,21 @@ function rotateString(string, cipher, position=0) {
   }).join('');
 }
 
-function encode(string, position=0) {
+function encrypt(string, position=0) {
   return rotateString(string, fibCipher, position);
 }
 
-function decode(string, position=0) {
+function decrypt(string, position=0) {
   return rotateString(string, (n) => { return -fibCipher(n); }, position);
 }
 
-function decodeFile(filepath) {
+function decryptFile(filepath) {
   let data = fs.readFileSync(filepath, 'utf8');
-  return decode(data);
+  return decrypt(data);
 }
 
 module.exports = {
-  encode: encode,
-  decode: decode,
-  decodeFile: decodeFile
+  encrypt: encrypt,
+  decrypt: decrypt,
+  decryptFile: decryptFile
 };

@@ -1,5 +1,5 @@
-# FibCode
+# FibCrypt
 
-Functions to encode and decode letters using Fibonacci
+Functions to encrypt and decrypt letters using Fibonacci
 
-> Uikv rmfnijp kzf qmnyyjd zxscf huf Txeginkxl qfpudmab.
+> Uikv rmfnijp kzf qmnbtutji ehhbt uvt Iawbvvfaj reptckxw.
