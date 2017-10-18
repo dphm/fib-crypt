@@ -8,7 +8,14 @@
     "name": "Danielle Pham",
     "url": "https://daniellepham.ca/"
   },
+  "scripts": {
+    "test": "grunt"
+  },
   "dependencies": {
     "big-integer": "^1.6.25"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-jasmine-bundle": "^0.4.0"
   }
 }
